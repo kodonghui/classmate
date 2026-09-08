@@ -4,9 +4,9 @@
 
 Tiro가 말을 글로 바꾸면, Classmate는 Chrome 오른쪽에서 그 전사와 선택한 화면을 참고해 설명합니다. 코딩 수업뿐 아니라 현장 강의, 시험 공부, 온라인·대면 회의에도 사용할 수 있습니다.
 
-**[Windows 0.1.4 설치 ZIP 받기](https://github.com/kodonghui/classmate/releases/download/v0.1.4/Corthex-Classmate-0.1.4-windows-x64.zip)** · **[버전별 다운로드](https://github.com/kodonghui/classmate/releases)** · **[문제 제보](https://github.com/kodonghui/classmate/issues)**
+**[Windows 0.1.5 설치 ZIP 받기](https://github.com/kodonghui/classmate/releases/download/v0.1.5/Corthex-Classmate-0.1.5-windows-x64.zip)** · **[버전별 다운로드](https://github.com/kodonghui/classmate/releases)** · **[문제 제보](https://github.com/kodonghui/classmate/issues)**
 
-> 현재 배포판: **0.1.4 · Windows x64 · Chrome · Claude Code**
+> 현재 배포판: **0.1.5 · Windows x64 · Chrome · Claude Code**
 >
 > 휴대폰은 **Tiro 녹음기**로 사용할 수 있습니다. Classmate 자체는 **PC Chrome 확장**이며 휴대폰 전용 앱은 아닙니다.
 >
@@ -18,7 +18,7 @@ Tiro가 말을 글로 바꾸면, Classmate는 Chrome 오른쪽에서 그 전사�
 
 ## 처음이라면 이 순서만 따라 하세요
 
-1. **내 PC에 Claude Code 설치** → 아래 **Windows 0.1.4 ZIP** 설치 → Chrome에 확장을 추가합니다. 패널의 **Claude Code 연결하기**로 본인 공식 로그인을 완료합니다. 자세한 경로는 [설치하기](#3-classmate-설치하기)를 참고하세요.
+1. **내 PC에 Claude Code 설치** → 아래 **Windows 0.1.5 ZIP** 설치 → Chrome에 확장을 추가합니다. 패널의 **Claude Code 연결하기**로 본인 공식 로그인을 완료합니다. 자세한 경로는 [설치하기](#3-classmate-설치하기)를 참고하세요.
 2. **PC 영상·온라인 회의**는 Tiro 데스크톱의 시스템 사운드로, **현장 강의·대면 회의**는 휴대폰 Tiro의 실시간 모드로 녹음합니다.
 3. Tiro 노트에서 **공유 → 링크 복사**를 하고, **Classmate를 설치한 PC Chrome 주소창**에 붙여넣습니다. 실제 전사가 보이는 탭을 열어 둡니다.
 4. 참고할 **영상·Meet·자료 탭**으로 가서 **Classmate 아이콘**을 누릅니다. 현장 음성만 있다면 Tiro 공유 탭에서 열어도 됩니다.
@@ -97,8 +97,8 @@ Claude와 Tiro의 요금제·한도는 별개입니다. Classmate가 구독 제�
 
 ### 3-1. ZIP 전체를 받습니다
 
-1. 위의 **Windows 0.1.4 설치 ZIP 받기**를 누릅니다.
-2. 파일 이름이 `Corthex-Classmate-0.1.4-windows-x64.zip`인지 확인합니다.
+1. 위의 **Windows 0.1.5 설치 ZIP 받기**를 누릅니다.
+2. 파일 이름이 `Corthex-Classmate-0.1.5-windows-x64.zip`인지 확인합니다.
 3. 탐색기에서 ZIP을 우클릭 → **모두 압축 풀기**를 선택합니다.
 4. 풀린 폴더 안에 `Install.cmd`, `Guide.html`, `app` 폴더가 있는지 확인합니다.
 
@@ -113,7 +113,7 @@ Claude와 Tiro의 요금제·한도는 별개입니다. Classmate가 구독 제�
 기본 확장 설치 위치는 다음과 같습니다.
 
 ```text
-%LOCALAPPDATA%\Programs\CorthexClassmate\0.1.4\app\extension
+%LOCALAPPDATA%\Programs\CorthexClassmate\0.1.5\app\extension
 ```
 
 `%LOCALAPPDATA%`는 내 Windows 사용자의 프로그램 폴더를 뜻합니다. 위 경로를 탐색기 주소창에 붙여넣으면 실제 폴더로 이동할 수 있습니다. **설치 완료 화면이 다른 경로를 알려 주었다면 그 경로가 우선입니다.**
@@ -127,7 +127,7 @@ Claude와 Tiro의 요금제·한도는 별개입니다. Classmate가 구독 제�
 3. 오른쪽 위 **개발자 모드**를 켭니다.
 4. **압축해제된 확장 프로그램을 로드합니다**를 누릅니다. Chrome 언어·버전에 따라 표현이 조금 다를 수 있습니다.
 5. 설치 완료 화면에서 알려 준 **app → extension 폴더**를 선택합니다. ZIP 파일, app 폴더 자체, host 폴더를 선택하면 안 됩니다.
-6. **Corthex Classmate**, 버전 **0.1.4**, 사용 스위치 켜짐을 확인합니다.
+6. **Corthex Classmate**, 버전 **0.1.5**, 사용 스위치 켜짐을 확인합니다.
 7. Chrome 오른쪽 위 퍼즐 모양 **확장 프로그램** 메뉴에서 Corthex Classmate의 **핀**을 눌러 고정합니다.
 
 ![격리된 Chrome에서 확인한 Classmate 확장 상세 화면](docs/screenshots/manual-extension-0.1.2.png)
@@ -402,6 +402,11 @@ Cowork를 열어 **그 묶음 폴더만 연결**하고 `자료/블로그작성�
 
 ## 12. 문제 해결
 
+### Install.cmd에서 AppData를 찾을 수 없다고 나올 때
+
+0.1.4 이하 설치기의 숨김 폴더 검사 오류입니다. **0.1.5 ZIP을 새로 내려받아 전부 압축 해제한 뒤 Install.cmd를 실행하세요.** 폴더 이름·숨김 설정·백신·회사 보안 정책을 변경할 필요가 없습니다. 이 오류는 프로그램 복사·등록 전 검사에서 발생하므로 실패했던 폴더를 직접 삭제하거나 Disconnect.cmd를 실행하지 마세요. 이미 정상 설치된 이전 버전이 있다면 아래 업데이트 절차를 따릅니다.
+
+
 | 증상 | 먼저 확인할 것 |
 |---|---|
 | 설치 파일이 안 보임 | Code ZIP이 아니라 릴리스의 Windows 프로그램 ZIP인지, 전체 압축을 풀었는지 |
@@ -431,14 +436,14 @@ Cowork를 열어 **그 묶음 폴더만 연결**하고 `자료/블로그작성�
 
 ### 기존 공식 ZIP 설치자
 
-**0.1.4는 확장과 로컬 도우미가 함께 바뀝니다. Chrome 새로고침만으로 새 파일이 다운로드되지는 않습니다.**
+**0.1.5는 숨김 AppData 폴더에서 설치가 중단되는 문제를 수정한 버전입니다. Chrome 새로고침만으로 새 파일이 다운로드되지는 않습니다.**
 
 이전 버전에서 업데이트할 때는 새 ZIP의 도우미까지 설치하세요. 확장만 바꾸면 **도우미도 새 버전으로 업데이트** 안내가 나올 수 있습니다. 공식 ZIP 설치 사용자는 아래 순서를 따릅니다.
 
 1. 진행 중인 질문을 마치고 Chrome 확장 관리에서 Classmate를 **사용 중지**합니다.
 2. **이전 버전 설치 폴더의 Disconnect.cmd**로 이전 연결을 해제합니다.
-3. 새 0.1.4 ZIP을 전체 압축 해제하고 **Install.cmd**를 실행합니다.
-4. Chrome을 다시 시작하고 확장 관리에서 새로 설치된 **0.1.4의 app\extension**을 로드합니다.
+3. 새 0.1.5 ZIP을 전체 압축 해제하고 **Install.cmd**를 실행합니다.
+4. Chrome을 다시 시작하고 확장 관리에서 새로 설치된 **0.1.5의 app\extension**을 로드합니다.
 5. 동일 ID·이전 경로 때문에 로드가 막히면 이전 확장 항목을 제거한 후 새 폴더를 로드합니다. 이 경우 Chrome에 저장된 UI 설정은 초기화될 수 있습니다. 로컬 공부 DB 삭제와는 별개입니다.
 6. 버전·제공자를 확인하고 설정의 저장된 학습 묶음에서 이전 기록을 선택해 이어서 공부합니다. Tiro 공유 탭을 새로고침합니다.
 
@@ -450,7 +455,7 @@ Cowork를 열어 **그 묶음 폴더만 연결**하고 `자료/블로그작성�
 
 1. 진행 중인 AI 답변이 끝날 때까지 기다립니다.
 2. `chrome://extensions` → **Corthex Classmate**의 **새로고침 ⟳**을 누릅니다.
-3. 버전 **0.1.4**인지 확인합니다. 숫자 버전 뒤의 `+g…`는 해당 빌드의 소스 식별자입니다.
+3. 버전 **0.1.5**인지 확인합니다. 숫자 버전 뒤의 `+g…`는 해당 빌드의 소스 식별자입니다.
 4. **Tiro 공유 탭을 새로고침**하고, 참고할 영상·자료 탭에서 Classmate 아이콘을 눌러 패널을 다시 엽니다.
 
 이 과정은 기존 학습 기록을 지우지 않습니다. Chrome의 현재 로드 경로가 교체해 준 폴더와 같은지 확인하세요.
@@ -475,7 +480,7 @@ Cowork를 열어 **그 묶음 폴더만 연결**하고 `자료/블로그작성�
 
 ### 확인한 범위
 
-0.1.4는 자동 테스트·실제 Chromium UI 시험·Windows 패키지 검사를 거칩니다. 새 로그인 버튼은 합성 CLI로 Windows 공식 실행 흐름·완료 감지·별도 답변 테스트를 검증하며, 개발 중 실제 계정 인증이나 유료 답변 요청을 자동 실행하지 않습니다. 개발 PC에서는 공식 로그인 상태 확인 및 로컬 도우미→실제 Claude 답변 왕복을 확인했습니다(합성 질문, 약 12초). 화면 예제는 합성 자료입니다. 깨끗한 별도 PC의 전체 설치, 실제 Claude의 다이어그램 생성 품질, 하루 8교시 장시간 사용을 모두 보장하는 것은 아닙니다. **첫날에는 위의 1분 연결 시험부터 진행해 주세요.**
+0.1.5는 자동 테스트·실제 Chromium UI 시험·Windows 패키지 검사를 거칩니다. 새 로그인 버튼은 합성 CLI로 Windows 공식 실행 흐름·완료 감지·별도 답변 테스트를 검증하며, 개발 중 실제 계정 인증이나 유료 답변 요청을 자동 실행하지 않습니다. 개발 PC에서는 공식 로그인 상태 확인 및 로컬 도우미→실제 Claude 답변 왕복을 확인했습니다(합성 질문, 약 12초). 화면 예제는 합성 자료입니다. 깨끗한 별도 PC의 전체 설치, 실제 Claude의 다이어그램 생성 품질, 하루 8교시 장시간 사용을 모두 보장하는 것은 아닙니다. **첫날에는 위의 1분 연결 시험부터 진행해 주세요.**
 
 ### 공식 참고와 화면 안내
 
